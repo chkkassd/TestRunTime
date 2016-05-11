@@ -15,6 +15,8 @@
 		9184CBAF1CE30D58007F4C05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9184CBAD1CE30D58007F4C05 /* LaunchScreen.storyboard */; };
 		9184CBBA1CE30D58007F4C05 /* TestRuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9184CBB91CE30D58007F4C05 /* TestRuntimeTests.m */; };
 		9184CBC51CE30D58007F4C05 /* TestRuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9184CBC41CE30D58007F4C05 /* TestRuntimeUITests.m */; };
+		9184CBD41CE30DCA007F4C05 /* TestRunTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9184CBD31CE30DCA007F4C05 /* TestRunTime.m */; };
+		9184CBD71CE33017007F4C05 /* TestRunTime+AddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9184CBD61CE33017007F4C05 /* TestRunTime+AddProperty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		9184CBC01CE30D58007F4C05 /* TestRuntimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestRuntimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9184CBC41CE30D58007F4C05 /* TestRuntimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRuntimeUITests.m; sourceTree = "<group>"; };
 		9184CBC61CE30D58007F4C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9184CBD21CE30DCA007F4C05 /* TestRunTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRunTime.h; sourceTree = "<group>"; };
+		9184CBD31CE30DCA007F4C05 /* TestRunTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRunTime.m; sourceTree = "<group>"; };
+		9184CBD51CE33017007F4C05 /* TestRunTime+AddProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestRunTime+AddProperty.h"; sourceTree = "<group>"; };
+		9184CBD61CE33017007F4C05 /* TestRunTime+AddProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TestRunTime+AddProperty.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		9184CB9E1CE30D58007F4C05 /* TestRuntime */ = {
 			isa = PBXGroup;
 			children = (
+				9184CBD51CE33017007F4C05 /* TestRunTime+AddProperty.h */,
+				9184CBD61CE33017007F4C05 /* TestRunTime+AddProperty.m */,
+				9184CBD21CE30DCA007F4C05 /* TestRunTime.h */,
+				9184CBD31CE30DCA007F4C05 /* TestRunTime.m */,
 				9184CBA21CE30D58007F4C05 /* AppDelegate.h */,
 				9184CBA31CE30D58007F4C05 /* AppDelegate.m */,
 				9184CBA51CE30D58007F4C05 /* ViewController.h */,
@@ -270,8 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9184CBD41CE30DCA007F4C05 /* TestRunTime.m in Sources */,
 				9184CBA71CE30D58007F4C05 /* ViewController.m in Sources */,
 				9184CBA41CE30D58007F4C05 /* AppDelegate.m in Sources */,
+				9184CBD71CE33017007F4C05 /* TestRunTime+AddProperty.m in Sources */,
 				9184CBA11CE30D58007F4C05 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "TestRunTime.h"
+#import "TestRunTime+AddProperty.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    TestRunTime *tr = [[TestRunTime alloc] init];
+    tr.travel = @"haha i am travel";
+    NSLog(@"The added property is :%@",tr.travel);
 }
 
 - (void)didReceiveMemoryWarning {
